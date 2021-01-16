@@ -3,7 +3,6 @@
 FROM ubuntu:18.04
 
 # set environmental variables
-#ENV VERSION		Alpha build 2.3 (Jan 2020)
 ENV BIN_HOME	/usr/local/bin
 ENV PATH		$BIN_HOME:$PATH
 
