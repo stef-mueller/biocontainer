@@ -25,9 +25,36 @@ See [https://github.com/stef-mueller/singularity_intro](https://github.com/stef-
 ## Available container
 
 ### plink2
-Version:   
+Version: alpha build version 2.3 (Jan 2020)   
 Dockerhub:   
 
 ### metaXcan
 Version:   
 Dockerhub:   
+
+
+## Usefule oneliners
+### build image
+```
+docker build -t biocontainer/<software>:<tag> .
+```
+### push image to dockerhub
+```
+docker login 
+docker push biocontainer/<software>:<tag>
+```
+### pull image from dockerhub
+
+#### creating docker image
+```
+docker pull biocontainer/<software>:<tag>
+```
+
+#### creating singularity image file
+```
+singularity pull docker://biocontainer/<software>:<tag>
+```
+### create interactive container from image with docker
+#### using docker
+#### using singularity
+
