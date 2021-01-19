@@ -1,13 +1,15 @@
+# MAINTAINER s.mueller@ucl.ac.uk
+# Pull base image
 FROM ubuntu:18.04
 
-ENV VERSION	20210116
+
+# set environmental variables
+ENV BIN_HOME	/usr/local/bin
+ENV PATH		$BIN_HOME:$PATH
 
 # =====================================================================
 # Install R
 # =====================================================================
-
-# Don't print "debconf: unable to initialize frontend: Dialog" messages
-ARG DEBIAN_FRONTEND=noninteractive
 
 # Need this to add R repo
 RUN apt-get clean && \
@@ -23,7 +25,7 @@ RUN echo "deb http://cran.r-project.org/bin/linux/ubuntu bionic-cran35/" > /etc/
 RUN apt-get update && apt-get install -y \
     locales \
     git \
-    vim-tiny \
+    vim \
     less \
     wget \
     r-base \
