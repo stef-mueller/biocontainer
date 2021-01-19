@@ -1,0 +1,21 @@
+PLINK v2.00a2.3LM 64-bit Intel (24 Jan 2020)
+Options in effect:
+  --bfile data/input/toy
+  --missing sample-only
+  --out data/output/container_test
+
+Hostname: workdell
+Working directory: /home/stef/Dropbox/WORK/Coding/biocontainer/plink2/test
+Start time: Tue Jan 19 22:45:43 2021
+
+Random number seed: 1611096343
+15772 MiB RAM detected; reserving 7886 MiB for main workspace.
+Using up to 12 threads (change this with --threads).
+2 samples (0 females, 2 males; 2 founders) loaded from data/input/toy.fam.
+2 variants loaded from data/input/toy.bim.
+1 binary phenotype loaded (1 case, 1 control).
+Calculating sample missingness rates... done.
+--missing: Sample missing data report written to
+data/output/container_test.smiss .
+
+End time: Tue Jan 19 22:45:43 2021
