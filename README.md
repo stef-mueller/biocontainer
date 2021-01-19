@@ -15,7 +15,7 @@ See [https://github.com/stef-mueller/singularity_intro](https://github.com/stef-
 
  * `README.md` file with detailed description of image
  * `DOCKERFILE`
- * folder `test` with a test analysis including a sample script and sample input data in `test/data/input` and result of test run in folder `test/data/output`
+ * folder `test` with a test analysis including a sample bash script and sample input data in `test/data/input` and result of test run in folder `test/data/output`
 
 
 ## Container Structure
