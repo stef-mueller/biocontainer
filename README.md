@@ -14,14 +14,15 @@ See [https://github.com/stef-mueller/singularity_intro](https://github.com/stef-
  One folder per software container with the following contents:
 
  * `README.md` file with detailed description of image
- * `DOCKERFILE`
+ * `Dockerfile`
  * folder `test` with a test analysis including a sample bash script and sample input data in `test/data/input` and result of test run in folder `test/data/output`
 
 
 ## Container Structure
-* all container build with base image ubuntu:18.04
+* container build with base image ubuntu:18.04
 * vim and less installed in all container
-* software executables added to container `$PATH` variable and saved in container path `/usr/local/bin`
+* software executables added to container `$PATH` variable and saved or linked in container path `/usr/local/bin`
+* necessary downloads placed in folder `/opt`
 
 ## Available container
 
