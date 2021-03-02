@@ -19,7 +19,7 @@ Ubuntu 18.04
 
 ## additional software
 * shell stuff:
-  - vim, less
+  - vim, less, wget, unzip
 
 ## origin of sample data
 toy data available with plink source files
