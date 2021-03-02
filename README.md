@@ -34,6 +34,19 @@ Dockerhub: [https://hub.docker.com/repository/docker/biocontainer/plink2](https:
 Version:   
 Dockerhub:   
 
+### jupyter lab, hub, notebook
+Version: jupyter docker-stacks base-notebook, (March 2021)
+* jupyter notebook: 6.2.0
+* jupyter lab: 3.0.9
+* jupyter hub: 1.3.0
+* python: 3.8.8    
+* conda: v4.9.2 (mambaforge)
+  
+Dockerhub: [https://hub.docker.com/repository/docker/biocontainer/jupyter](https://hub.docker.com/repository/docker/biocontainer/jupyter)
+### HAIL
+Version: v0.2   
+Dockerhub:   
+
 ## Instructions for container creation and testing
 1. create Dockerfile for container
 2. build image locally and test whether program of interest executable
